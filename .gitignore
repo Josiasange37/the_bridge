@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Certificates
+server/certs/*.key
+server/certs/*.crt
+server/certs/*.pem
+
+# Flutter
+client/.dart_tool/
+client/build/
+client/.flutter-plugins
+client/.flutter-plugins-dependencies
+client/.packages
+client/pubspec.lock
